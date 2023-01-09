@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230109170542">
+	<title>Healthcare</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__wrapper lock-padding">
+		<div class="header__container">
+			<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" data-goto="#home" class="menu__link">Home</a></li>
+						<li class="menu__item"><a href="#" data-goto="#about" class="menu__link">About</a></li>
+						<li class="menu__item"><a href="#" data-goto="#doctors" class="menu__link">Our doctors</a></li>
+						<li class="menu__item"><a href="#" data-goto="#testimonials" class="menu__link">Testimonials</a></li>
+						<li class="menu__item"><a href="#" data-goto="#services" class="menu__link">Services</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__actions actions-header">
+				<a href="#" class="actions-header__button button">Get Started</a>
+				<button type="button" class="actions-header__burger icon-menu"><span></span></button>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section id="home" class="page__intro intro">
+				<div class="intro__container">
+					<div class="intro__content">
+						<h1 class="intro__title">Find And Search Your <span>Suitable Doctor’s</span></h1>
+						<div class="intro__text">
+							<p>Join us and take care of yourself and your family with health services that will make you feel confident and safe in your daily life.</p>
+						</div>
+						<form action="#" method="get" class="intro__form form-intro">
+							<div class="form-intro__row">
+								<input type="text" autocomplete="off" class="form-intro__input form-input" data-error="Cannot be empty" data-required name="form[]" placeholder="Find your doctor">
+							</div>
+							<div data-select class="form-intro__select">
+								<select name=" location" id="location">
+									<option value="nevada">Nevada</option>
+									<option value="canada">Canada</option>
+									<option value="washington">Washington</option>
+									<option selected value="new_york">New York, USA</option>
+								</select>
+							</div>
+							<button type="submit" class="form-intro__submit _icon-search" aria-label="Submit form"></button>
+						</form>
+					</div>
+					<div class="intro__images images-intro">
+						<div class="images-intro__inner">
+							<div class="images-intro__item images-intro__item_back-shape">
+								<div data-mouse-parallax data-prlx-cx="50" data-prlx-cy="50" data-prlx-dyr="-1" class="images-intro__item-inner">
+									<picture><source srcset="img/main-block/back-shape.webp" type="image/webp"><img src="img/main-block/back-shape.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="images-intro__item images-intro__item_girl">
+								<div data-mouse-parallax data-prlx-cx="50" data-prlx-cy="50" data-prlx-dxr="-1" class="images-intro__item-inner">
+									<picture><source srcset="img/main-block/female-doctor.webp" type="image/webp"><img src="img/main-block/female-doctor.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="images-intro__item  images-intro__item_review">
+								<div data-mouse-parallax data-prlx-cx="30" data-prlx-cy="30" data-prlx-dyr="-1" class="images-intro__item-inner">
+									<picture><source srcset="img/main-block/patient-review.webp" type="image/webp"><img src="img/main-block/patient-review.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="images-intro__item  images-intro__item_bg images-intro__item_chat">
+								<div data-mouse-parallax data-prlx-cx="20" data-prlx-cy="30" data-prlx-dxr="-1" class="images-intro__item-inner">
+									<picture><source srcset="img/main-block/chat.webp" type="image/webp"><img src="img/main-block/chat.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="images-intro__item images-intro__item_bg images-intro__item_phone">
+								<div data-mouse-parallax data-prlx-cx="20" data-prlx-cy="30" data-prlx-dyr="-1" class="images-intro__item-inner">
+									<picture><source srcset="img/main-block/phone.webp" type="image/webp"><img src="img/main-block/phone.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="images-intro__item images-intro__item_bg images-intro__item_video">
+								<div data-mouse-parallax data-prlx-cx="20" data-prlx-cy="30" data-prlx-dxr="-1" class="images-intro__item-inner">
+									<picture><source srcset="img/main-block/video.webp" type="image/webp"><img src="img/main-block/video.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="images-intro__item images-intro__item_statistics">
+								<div data-mouse-parallax data-prlx-cx="40" data-prlx-cy="40" data-prlx-dyr="-1" class="images-intro__item-inner images-intro__item-inner_statictics">
+									<div class="images-intro__icon">
+										<img src="img/main-block/heart.svg" alt="">
+									</div>
+									<div class="images-intro__body">
+										<div class="images-intro__number">2500+</div>
+										<div class="images-intro__text">Happy Patients</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__steps steps">
+				<div class="steps__container">
+					<div data-animate="0.9,false" class="steps__title title-block">
+						<h2 class="title-block__item">3 Easy Steps and Get Your Solution</h2>
+					</div>
+					<div class="steps__items">
+						<article data-animate="0.9,false" class="steps__item item-step">
+							<div class="item-step__inner">
+								<div class="item-step__icon">
+									<picture><source srcset="img/get-solution/search.webp" type="image/webp"><img src="img/get-solution/search.png" alt=""></picture>
+								</div>
+								<div class="item-step__body">
+									<h3 class="item-step__label">Find best doctor's</h3>
+									<div class="item-step__text">
+										<p>Find your doctor easily with a minimum of effort. We've kept everything organised for you.</p>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.9,false" class="steps__item item-step">
+							<div class="item-step__inner">
+								<div class="item-step__icon">
+									<picture><source srcset="img/get-solution/calendar.webp" type="image/webp"><img src="img/get-solution/calendar.png" alt=""></picture>
+								</div>
+								<div class="item-step__body">
+									<h3 class="item-step__label">Get Appointment</h3>
+									<div class="item-step__text">
+										<p>Ask for an appointment of the doctor quickly with almost a single click. We take care of the rest.</p>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.9,false" class="steps__item item-step">
+							<div class="item-step__inner">
+								<div class="item-step__icon">
+									<picture><source srcset="img/get-solution/healthcare.webp" type="image/webp"><img src="img/get-solution/healthcare.png" alt=""></picture>
+								</div>
+								<div class="item-step__body">
+									<h3 class="item-step__label">Happy Consultations</h3>
+									<div class="item-step__text">
+										<p>Do consultations and take the service based on your appointment. Get back to good health</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="page__quality-service quality-service">
+				<div class="quality-service__container">
+					<div data-animate="0.7,false" class="quality-service__image image-service">
+						<div class="image-service__wrapper">
+							<div class="image-service__inner">
+								<div class="image-service__item image-service__item_circle">
+									<span></span>
+								</div>
+								<div class="image-service__item image-service__item_doctor">
+									<div data-mouse-parallax data-prlx-cx="50" data-prlx-cy="50" data-prlx-dyr="-1" class="image-service__item-inner">
+										<picture><source srcset="img/best-quality/doctor.webp" type="image/webp"><img src="img/best-quality/doctor.png" alt=""></picture>
+									</div>
+								</div>
+							</div>
+							<div class="image-service__item image-service__item_review">
+								<div data-mouse-parallax data-prlx-cx="50" data-prlx-cy="50" data-prlx-dxr="-1" class="image-service__item-inner">
+									<picture><source srcset="img/best-quality/user-feedback.webp" type="image/webp"><img src="img/best-quality/user-feedback.jpg" alt=""></picture>
+								</div>
+							</div>
+							<div class="image-service__item image-service__item_info info-service">
+								<div data-mouse-parallax data-prlx-cx="40" data-prlx-cy="40" data-prlx-dxr="-1" data-prlx-dyr="-1" class="info-service__inner">
+									<div class="info-service__icon">
+										<img src="img/icons/heart.svg" alt="">
+									</div>
+									<div class="info-service__content content-service-info">
+										<div class="content-service-info__top">
+											<div class="content-service-info__image">
+												<picture><source srcset="img/best-quality/avatar.webp" type="image/webp"><img src="img/best-quality/avatar.png" alt="Dr. Khalid Abbed"></picture>
+											</div>
+											<div class="content-service-info__body">
+												<div class="content-service-info__name">Dr. Khalid Abbed</div>
+												<div class="content-service-info__occupation">Carddiologist (MBBS)</div>
+												<div class="content-service-info__rating _icon-star">5.0</div>
+											</div>
+										</div>
+										<div class="content-service-info__statistics statistics-service">
+											<div class="statistics-service__item">
+												<div class="statistics-service__label">Experience</div>
+												<div class="statistics-service__number">5 Years</div>
+											</div>
+											<div class="statistics-service__item">
+												<div class="statistics-service__label">Patients</div>
+												<div class="statistics-service__number">3.5K</div>
+											</div>
+											<div class="statistics-service__item">
+												<div class="statistics-service__label">Reviews</div>
+												<div class="statistics-service__number">2.5K</div>
+											</div>
+										</div>
+										<div class="content-service-info__location _icon-location">Mayo Clinic Hospital</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-animate="0.6,false" class="quality-service__content">
+						<div data-animate="0.9,false" class="quality-service__titte title-block">
+							<h2 class=" title-block__item">Best quality service with our experience doctors</h2>
+							<div class="title-block__text">
+								<p>
+									With our top doctors, we are able to provide best medical services above average We have highly experienced doctors, so don't worry They are also very talented in their fields
+								</p>
+							</div>
+						</div>
+						<ul data-animate="0.7,false" class="quality-service__items">
+							<li class="quality-service__item _icon-mark">Search your specialist & Online consultations anywhere</li>
+							<li class="quality-service__item _icon-mark">Consultation our top specialists</li>
+							<li class="quality-service__item _icon-mark">Doctors are available 24/7</li>
+						</ul>
+						<a href="#" class="quality-service__button button _icon-arrow-long">Explore specialists</a>
+					</div>
+				</div>
+			</section>
+			<section id="services" class="page__our-service our-service">
+				<div class="our-service__container">
+					<div data-animate="0.9,false" class="our-service__title title-block">
+						<h2 class=" title-block__item">Our Service</h2>
+						<div class="title-block__text">
+							<p>Our doctors have high qualified skills and are guaranteed to help you recover from your disease.</p>
+						</div>
+					</div>
+					<div data-animate="0.7,false" class="our-service__slider">
+						<div class="our-service__swiper">
+							<div class="our-service__slide">
+								<div class="our-service__item item-our-service">
+									<div class="item-our-service__icon">
+										<img src="img/services/heart.svg" alt="Cardiology">
+									</div>
+									<div class="item-our-service__body">
+										<h3 class="item-our-service__title">Cardiology</h3>
+										<div class="item-our-service__text">
+											<p>Our cardiologists are skilled at the diagnosing and treating diseases of the cardiovascular system.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="our-service__slide">
+								<div class="our-service__item item-our-service">
+									<div class="item-our-service__icon">
+										<img src="img/services/lungs.svg" alt="Pulmonology">
+									</div>
+									<div class="item-our-service__body">
+										<h3 class="item-our-service__title">Pulmonology</h3>
+										<div class="item-our-service__text">
+											<p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="our-service__slide">
+								<div class="our-service__item item-our-service">
+									<div class="item-our-service__icon">
+										<img src="img/services/drugs.svg" alt="Pulmonology">
+									</div>
+									<div class="item-our-service__body">
+										<h3 class="item-our-service__title">Medicine</h3>
+										<div class="item-our-service__text">
+											<p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="our-service__slide">
+								<div class="our-service__item item-our-service">
+									<div class="item-our-service__icon">
+										<img src="img/services/lungs.svg" alt="Pulmonology">
+									</div>
+									<div class="item-our-service__body">
+										<h3 class="item-our-service__title">Pulmonology</h3>
+										<div class="item-our-service__text">
+											<p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="our-service__slide">
+								<div class="our-service__item item-our-service">
+									<div class="item-our-service__icon">
+										<img src="img/services/heart.svg" alt="Cardiology">
+									</div>
+									<div class="item-our-service__body">
+										<h3 class="item-our-service__title">Cardiology</h3>
+										<div class="item-our-service__text">
+											<p>Our cardiologists are skilled at the diagnosing and treating diseases of the cardiovascular system.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="our-service__slide">
+								<div class="our-service__item item-our-service">
+									<div class="item-our-service__icon">
+										<img src="img/services/drugs.svg" alt="Pulmonology">
+									</div>
+									<div class="item-our-service__body">
+										<h3 class="item-our-service__title">Medicine</h3>
+										<div class="item-our-service__text">
+											<p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="our-service__dotts slider-dotts"></div>
+					</div>
+				</div>
+			</section>
+			<section id="doctors" class="page__doctors doctors">
+				<div data-animate="0.3,false" class="doctors__container">
+					<div data-animate="0.9,false" class="doctors__title title-block">
+						<h2 class=" title-block__item">Meet Our Certified Online Doctors <span></span></h2>
+						<div class="title-block__text">
+							<p>Our online doctors have an average of 15 years experience and a 98% satisfaction rating, they really set us apart!</p>
+						</div>
+					</div>
+					<div class="doctors__cards">
+						<article data-animate="0.8,false" class="doctors__card card-doctor">
+							<div class="card-doctor__inner">
+								<div class="card-doctor__image">
+									<picture><source srcset="img/doctors/doctor-01.webp" type="image/webp"><img src="img/doctors/doctor-01.jpg" alt="Dr Amanda Linda "></picture>
+								</div>
+								<div class="card-doctor__body">
+									<h3 class="card-doctor__name">Dr Amanda Linda </h3>
+									<p class="card-doctor__occupation">Dentist Specilist</p>
+									<ul class="card-doctor__socials">
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-facebook" aria-label="facebook"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-twitter" aria-label="twitter"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-linkedin" aria-label="linkedin"></a></li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,false" class="doctors__card card-doctor">
+							<div class="card-doctor__inner">
+								<div class="card-doctor__image">
+									<picture><source srcset="img/doctors/doctor-02.webp" type="image/webp"><img src="img/doctors/doctor-02.jpg" alt="Dr. Alisa Rahman"></picture>
+								</div>
+								<div class="card-doctor__body">
+									<h3 class="card-doctor__name">Dr. Alisa Rahman</h3>
+									<p class="card-doctor__occupation">Carddiologist Specilist</p>
+									<ul class="card-doctor__socials">
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-facebook" aria-label="facebook"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-twitter" aria-label="twitter"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-linkedin" aria-label="linkedin"></a></li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,false" class="doctors__card card-doctor">
+							<div class="card-doctor__inner">
+								<div class="card-doctor__image">
+									<picture><source srcset="img/doctors/doctor-03.webp" type="image/webp"><img src="img/doctors/doctor-03.jpg" alt="Dr. Anthony Fauci"></picture>
+								</div>
+								<div class="card-doctor__body">
+									<h3 class="card-doctor__name">Dr. Anthony Fauci</h3>
+									<p class="card-doctor__occupation">Neurology Specilist</p>
+									<ul class="card-doctor__socials">
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-facebook" aria-label="facebook"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-twitter" aria-label="twitter"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-linkedin" aria-label="linkedin"></a></li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<article data-animate="0.8,false" class="doctors__card card-doctor">
+							<div class="card-doctor__inner">
+								<div class="card-doctor__image">
+									<picture><source srcset="img/doctors/doctor-04.webp" type="image/webp"><img src="img/doctors/doctor-04.jpg" alt="Dr. Anthony Fauci"></picture>
+								</div>
+								<div class="card-doctor__body">
+									<h3 class="card-doctor__name">Dr. Khalid Abbed</h3>
+									<p class="card-doctor__occupation">Cancer Specilist</p>
+									<ul class="card-doctor__socials">
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-facebook" aria-label="facebook"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-twitter" aria-label="twitter"></a></li>
+										<li class="card-doctor__social"><a href="#" class="card-doctor__social-link _icon-linkedin" aria-label="linkedin"></a></li>
+									</ul>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="doctors__actions">
+						<a href="#" class="doctors__see-all button">Explore All Doctors</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__application application">
+				<div class="application__container">
+					<div data-animate="0.7,false" class="application__image">
+						<div class="application__image-inner">
+							<picture><source srcset="img/application-block/phone-image.webp" type="image/webp"><img src="img/application-block/phone-image.png" alt=""></picture>
+						</div>
+					</div>
+					<div data-animate="0.7,false" class="application__content">
+						<div data-animate="0.9,false" class="application__title title-block">
+							<h2 class=" title-block__item">Mobile apps are available Get HealthCare for free!</h2>
+							<div class="title-block__text">
+								<p>Get on-demand access to a doctor on your phone with the free HealthCare mobile app. Download and register on our app for free and feel safe for all your family</p>
+							</div>
+						</div>
+						<div class="application__actions">
+							<a href="" class="application__btn"><img src="img/application-block/google-play.svg" aria-label="Download from google play" alt="Google Play"></a>
+							<a href="" class="application__btn"><img src="img/application-block/app-store.svg" aria-label="Download from app store" alt="App Store"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="testimonials" class="page__testimonials testimonials">
+				<div class="testimonials__container">
+					<div data-animate="0.9,false" class="testimonials__header title-block">
+						<h2 class=" title-block__item">Look our Clients have to say about us</h2>
+					</div>
+					<div data-animate="0.7,false" class="testimonials__body">
+						<div class="testimonials__slider">
+							<div class="testimonials__swiper">
+								<div class="testimonials__slide">
+									<div class="testimonials__item item-testimonials">
+										<div class="item-testimonials__avatar">
+											<picture><source srcset="img/testimonials/testimonial_01.webp" type="image/webp"><img src="img/testimonials/testimonial_01.jpg" alt="Alan Zara dilan"></picture>
+										</div>
+										<div class="item-testimonials__content">
+											<div class="item-testimonials__top">
+												<div class="item-testimonials__info">
+													<div class="item-testimonials__name">Alan Zara dilan</div>
+													<div class="item-testimonials__location">New York, America, USA</div>
+												</div>
+												<div class="item-testimonials__rating rating  rating__set">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input type="radio" class="rating__item" value="1" name="rating">
+															<input type="radio" class="rating__item" value="2" name="rating">
+															<input type="radio" class="rating__item" value="3" name="rating">
+															<input type="radio" class="rating__item" value="4" name="rating">
+															<input type="radio" class="rating__item" value="5" name="rating">
+														</div>
+													</div>
+													<div class="rating__value">4.5</div>
+												</div>
+											</div>
+											<div class="item-testimonials__text">
+												<p>Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution in medical services specially an overpopulated country where virtual chamber can create at anywhere thoughout country</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonials__slide">
+									<div class="testimonials__item item-testimonials">
+										<div class="item-testimonials__avatar">
+											<picture><source srcset="img/testimonials/testimonial_02.webp" type="image/webp"><img src="img/testimonials/testimonial_02.jpg" alt="Alex Maxwell"></picture>
+										</div>
+										<div class="item-testimonials__content">
+											<div class="item-testimonials__top">
+												<div class="item-testimonials__info">
+													<div class="item-testimonials__name">Alex Maxwell</div>
+													<div class="item-testimonials__location">San Francisco, USA</div>
+												</div>
+												<div class="item-testimonials__rating rating  rating__set">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input type="radio" class="rating__item" value="1" name="rating">
+															<input type="radio" class="rating__item" value="2" name="rating">
+															<input type="radio" class="rating__item" value="3" name="rating">
+															<input type="radio" class="rating__item" value="4" name="rating">
+															<input type="radio" class="rating__item" value="5" name="rating">
+														</div>
+													</div>
+													<div class="rating__value">5</div>
+												</div>
+											</div>
+											<div class="item-testimonials__text">
+												<p>I visited my PCP for abdominal pain. My doctor told me that I need to see Gastroenterologist. Earlier I used to call multiple offices to schedule an appointment that suites my time.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonials__slide">
+									<div class="testimonials__item item-testimonials">
+										<div class="item-testimonials__avatar">
+											<picture><source srcset="img/testimonials/testimonial_03.webp" type="image/webp"><img src="img/testimonials/testimonial_03.jpg" alt="Dr. Tasnim zara"></picture>
+										</div>
+										<div class="item-testimonials__content">
+											<div class="item-testimonials__top">
+												<div class="item-testimonials__info">
+													<div class="item-testimonials__name">Dr. Tasnim zara</div>
+													<div class="item-testimonials__location">Los Angeles, USA</div>
+												</div>
+												<div class="item-testimonials__rating rating  rating__set">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input type="radio" class="rating__item" value="1" name="rating">
+															<input type="radio" class="rating__item" value="2" name="rating">
+															<input type="radio" class="rating__item" value="3" name="rating">
+															<input type="radio" class="rating__item" value="4" name="rating">
+															<input type="radio" class="rating__item" value="5" name="rating">
+														</div>
+													</div>
+													<div class="rating__value">3.5</div>
+												</div>
+											</div>
+											<div class="item-testimonials__text">
+												<p>HealthCare is enlightens my superpower each and every time...!
+													I find DocTime a brand-able telemedicine platform with virtual waiting room, video consultation, e-prescription, beautifully planned user interface.
+													Thank you :)</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonials__slide">
+									<div class="testimonials__item item-testimonials">
+										<div class="item-testimonials__avatar">
+											<picture><source srcset="img/testimonials/testimonial_01.webp" type="image/webp"><img src="img/testimonials/testimonial_01.jpg" alt="Alan Zara dilan"></picture>
+										</div>
+										<div class="item-testimonials__content">
+											<div class="item-testimonials__top">
+												<div class="item-testimonials__info">
+													<div class="item-testimonials__name">Alan Zara dilan</div>
+													<div class="item-testimonials__location">New York, America, USA</div>
+												</div>
+												<div class="item-testimonials__rating rating  rating__set">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input type="radio" class="rating__item" value="1" name="rating">
+															<input type="radio" class="rating__item" value="2" name="rating">
+															<input type="radio" class="rating__item" value="3" name="rating">
+															<input type="radio" class="rating__item" value="4" name="rating">
+															<input type="radio" class="rating__item" value="5" name="rating">
+														</div>
+													</div>
+													<div class="rating__value">4.5</div>
+												</div>
+											</div>
+											<div class="item-testimonials__text">
+												<p>Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution in medical services specially an overpopulated country where virtual chamber can create at anywhere thoughout country</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__controlls controlls-slider">
+								<button type="button" class="controlls-slider__btn controlls-slider__btn_prev _icon-arrow-bottom"></button>
+								<button type="button" class="controlls-slider__btn controlls-slider__btn_next _icon-arrow-bottom"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__baner baner">
+				<div class="baner__container">
+					<div data-animate="0.6,false" class="baner__content">
+						<h2 class="baner__title">It’s time change your life today</h2>
+						<a href="" class="baner__button button button_white">Book an Appoinment </a>
+					</div>
+					<div data-animate="0.6,false" class="baner__image">
+						<div data-mouse-parallax data-prlx-cx="40" data-prlx-cy="40" data-prlx-dyr="-1" class="baner__image-inner">
+							<picture><source srcset="img/smiling_young_female.webp" type="image/webp"><img src="img/smiling_young_female.png" alt=""></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__main">
+			<div class="footer__info info-footer">
+				<a href="#" class="footer__logo"><img src="img/logo.svg" alt="Logo"></a>
+				<div class="info-footer__location">Metairie, 3689 Bassel Street, LA, Louisiana</div>
+				<a href="tel:2257885489" class="info-footer__phone">Contact us: 225-788-5489</a>
+				<ul class="info-footer__socials">
+					<li class="info-footer__social"> <a href="#" class="info-footer__social-link _icon-footer-facebook" aria-label="Link to facebook"></a></li>
+					<li class="info-footer__social"> <a href="#" class="info-footer__social-link _icon-footer-instagram" aria-label="Link to instagram"></a></li>
+					<li class="info-footer__social"> <a href="#" class="info-footer__social-link _icon-footer-twitter" aria-label="Link to twitter"></a></li>
+					<li class="info-footer__social"> <a href="#" class="info-footer__social-link _icon-footer-youtube" aria-label="Link to youtube"></a></li>
+				</ul>
+			</div>
+			<nav class="footer__menu menu-footer">
+				<div class="menu-footer__column">
+					<div class="menu-footer__label">Category</div>
+					<ul class="menu-footer__list">
+						<li><a href="#" class="menu-footer__link">Home</a></li>
+						<li><a href="#" class="menu-footer__link">About</a></li>
+						<li><a href="#" class="menu-footer__link">Services</a></li>
+						<li><a href="#" class="menu-footer__link">Reviews</a></li>
+						<li><a href="#" class="menu-footer__link">Article</a></li>
+					</ul>
+				</div>
+				<div class="menu-footer__column">
+					<div class="menu-footer__label">About</div>
+					<ul class="menu-footer__list">
+						<li><a href="#" class="menu-footer__link">Partners</a></li>
+						<li><a href="#" class="menu-footer__link">Careers</a></li>
+						<li><a href="#" class="menu-footer__link">Press</a></li>
+						<li><a href="#" class="menu-footer__link">Community</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="footer__subscription subscription">
+				<h3 class="subscription__title">Subscribe newsletter</h3>
+				<div class="subscription__text">
+					<p>Sign up for tips, new destinations, and exclusive promos.</p>
+				</div>
+				<form action="#" method="get" class="subscription__form">
+					<div class="subscription__row">
+						<input type="text" autocomplete="off" class="form-input" data-error="Enter your email" data-required="email" name="form[]" placeholder="Enter your email">
+					</div>
+					<div class="subscription__row">
+						<button type="submit" class="subscription__submit button">Subcribe</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer__bottom bottom-footer">
+			<div class="bottom-footer__copy">© 2021 Healthcare - All rights reserved.</div>
+			<ul class="bottom-footer__links">
+				<li><a href="#" class="bottom-footer__link">Privacy</a></li>
+				<li><a href="#" class="bottom-footer__link">Security</a></li>
+				<li><a href="#" class="bottom-footer__link">Terms</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230109170542"></script>
+</body>
+
+</html>
